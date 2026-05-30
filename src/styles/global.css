@@ -1,0 +1,99 @@
+/* Reset & Typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f4f6f9; /* Soft, clean neutral background */
+  color: #2d3748; /* Deep charcoal text for perfect readability */
+  line-height: 1.6;
+}
+
+/* Beautiful Navigation Bar */
+.navbar {
+  background: #0f172a; /* Deep elegant slate/midnight blue */
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2.5rem; /* Generous breathing room below nav */
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Dashboard Container & Layout */
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* The View Switcher Track */
+.switcher-track {
+  display: flex;
+  gap: 1.5rem; /* Generous, explicit spacing between your cards */
+  justify-content: center;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+/* Premium Rounded Cards for Your Switches */
+.switch-card {
+  background: #ffffff;
+  color: #1e293b;
+  border: 2px solid #e2e8f0;
+  border-radius: 10px; /* Exact requested rounding */
+  padding: 1.25rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+/* Card Hover Animations */
+.switch-card:hover {
+  transform: translateY(-3px); /* Gentle lift effect */
+  border-color: #cbd5e1;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* Highlighted Active Dashboard State */
+.switch-card.active {
+  background: #f59e0b; /* Energetic amber gold accent color */
+  color: #ffffff;
+  border-color: #f59e0b;
+  box-shadow: 0 10px 15px -3px rgba(245, 158, 11, 0.3);
+}
+
+/* Main Display Panels */
+.main-content-panel {
+  background: #ffffff;
+  border-radius: 10px; /* Exact requested rounding */
+  padding: 3rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+
+/* Make Content Headers bold and striking */
+.main-content-panel h1,
+.main-content-panel h2 {
+  font-size: 2.25rem;
+  color: #0f172a;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.main-content-panel p {
+  font-size: 1.2rem; /* Enhanced visibility size */
+  color: #475569; /* Clear contrast readable text */
+}
